@@ -1,0 +1,337 @@
+body
+{
+	/*background-color: silver;*/
+}
+.header
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-shadow: 1px 1px 2px 2px grey;
+}
+.logo
+{
+	width: 20%;
+	text-align: center;
+}
+.logo img
+{
+	padding: 1%;
+	height: 80px;
+	width: 50%;
+}
+.heading
+{
+	width: 50%;
+	text-align: center;
+}
+.navbar
+{		
+	background-color: black;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 2%;
+}
+.navbar button
+{
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	margin: 5px;
+}
+.navbar a
+{
+	color: white;
+	text-decoration: none;
+}
+.navbar button:hover
+{
+	background-color: yellow;
+	color: black;
+}
+.navbar button a:hover
+{
+	background-color: yellow;
+	color: black;
+}
+.container 
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.data
+{
+	width: 23%;
+	background-color: grey;
+	color:white;
+	text-align: center;
+	border: 3px solid black;
+}
+.data img
+{
+
+	width: 100%;
+	height: 180px;
+}
+/*.data h3
+{
+	text-align: center;
+}*/
+.data p
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 0.9rem;
+}
+.data button
+{
+	width: 100px;
+	height: 25px;
+	border:none;
+	background-color: green;
+	color: white;
+	margin:2% 0% 4% 40%;
+	
+}
+.footer
+{
+	margin: 5%;
+	background-color: #479913;
+	color: white;
+	font-size: 1.1rem;
+	height: 25px;
+
+}
+.signals{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.lights 
+{
+	width:30%;
+}
+.lights img
+{
+	width: 100%;
+}
+.signals2
+{
+	width: 65%;
+	padding-top: 5%;
+	padding-right: 5%;
+}
+.safety
+{
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.roadsafety
+{
+	margin: 2%;
+	width: 20%;
+	border: 2px solid black;
+}
+.roadsafety img
+{
+	width: 100%;
+}
+
+
+
+/*Mobile Mode*/
+@media only screen and (min-width: 320px) and (max-width: 767px)
+{
+	/*body
+	{
+		background-color: black;
+	}
+*/	.navbar
+	{		
+		background-color: black;
+		height: 85px;
+		/*display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;*/
+		margin: 0%;
+	}
+	.logo img
+	{
+		width: 100%;
+		margin-top: 15%;
+		margin-left: 10%;
+	}
+	.heading
+{
+	width: 70%;
+	text-align: center;
+	/*color: white;*/
+	font-size: 0.9rem;
+}
+.navbar button
+{
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	margin: 5px;
+}
+.navbar a
+{
+	color: white;
+	text-decoration: none;
+}
+.navbar button:hover
+{
+	background-color: yellow;
+	color: black;
+}
+.navbar button a:hover
+{
+	background-color: yellow;
+	color: black;
+}	
+	.data
+	{
+		width: 98%;
+		margin-top: 2%;
+		background-color: grey;
+		color:white;
+		text-align: center;
+		border: 2px solid black;
+	}
+	.lights img
+	{
+		margin-top: 35%;
+	}
+	.footer
+{
+	margin: 3%;
+	background-color: #479913;
+	color: white;
+	font-size: 1rem;
+	height: 50px;
+
+}
+.safety
+{
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.roadsafety
+{
+	width: 95%;
+}
+}
+
+
+
+
+/*TAB Mode*/
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+	.navbar
+	{		
+		background-color: black;
+		/*height: 85px;*/
+		/*display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;*/
+		margin: 0%;
+	}
+	.logo img
+	{
+		width: 100%;
+		margin-top: 15%;
+		margin-left: 10%;
+	}
+	.heading
+{
+	width: 70%;
+	text-align: center;
+	/*color: white;*/
+	font-size: 0.9rem;
+	padding-top: 3%;
+}
+.navbar button
+{
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	margin: 5px;
+}
+.navbar a
+{
+	color: white;
+	text-decoration: none;
+}
+.navbar button:hover
+{
+	background-color: yellow;
+	color: black;
+}
+.navbar button a:hover
+{
+	background-color: yellow;
+	color: black;
+}	
+	.data
+	{
+		width: 48%;
+		margin-top: 2%;
+		background-color: grey;
+		color:white;
+		text-align: center;
+		border: 2px solid black;
+	}
+	.lights img
+	{
+		margin-top: 35%;
+	}
+	.footer
+{
+	margin: 3%;
+	background-color: #479913;
+	color: white;
+	font-size: 1rem;
+	/*height: 50px;*/
+
+}
+.safety
+{
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.roadsafety
+{
+	width: 45%;
+}
+}
